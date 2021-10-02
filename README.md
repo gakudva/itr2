@@ -4,7 +4,7 @@ Filing Indian Income tax returns for Assessment year 2021-2022 has to be with ne
 
 One of the challenge is to update section 112A.  In 112A, you have to include Captial Gains transactions.  This data entry gets very complicated when there are grand fathered captital gains. To make life easy, most of the brokerages provide Excel files that contain all necessary information.  Usually, you will have hundred or more lines of data.  Manual entry into the portal is very cumbersom.  The portal provides a CSV upload option - however, its buggy and throws out random errors for when CSV file has more than 5 lines.
 
-This repository contains a pytest script that makes use of Selenium to update the section 112A using a data from CSV.  Hope you will find it useful.  This script has been tested with my capital gains CSV data.  
+This repository contains a pytest script that updates the section 112A using a data from CSV.   
 
 ## Pre-requisites
 - Python 3 
