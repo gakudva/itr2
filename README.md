@@ -33,8 +33,8 @@ This repository contains a pytest script that updates the section 112A using a d
   -  Prepare your tax returns for Assessment year 2021 - 2022 -> Enter basic data and save draft.
 ## Executing the script
 - edit the script itr2-112a.py
-  - In line 20, replace <YOURPAN> with your income tax portal user name 
-  - In line 30, insert your passwork to portal
+  - In line 20, replace USERNAME with your user name to the portal 
+  - In line 30, replace PASSWORD with your passwork to the portal
   - If you dont updates the script; thats fine too.  But, when the test script is executing - you must quickly enter credentials in the browser.
   - the sleep timers in the scripts have been optimized as per the broadband internet speeds.  You may want to increase it if you have slow internet.
 - execute the script usign command "pytest --verbose --capture=no itr2-112a.py
