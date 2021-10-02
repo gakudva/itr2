@@ -17,7 +17,7 @@ def test_automate_112a():
 
     #Enter User ID
     chrome_driver.find_element_by_id("panAdhaarUserId").click()
-    chrome_driver.find_element_by_id("panAdhaarUserId").send_keys("<YOURPAN>")
+    chrome_driver.find_element_by_id("panAdhaarUserId").send_keys("USERNAME")
     chrome_driver.find_element_by_id("panAdhaarUserId").send_keys(Keys.ENTER)
     sleep(5)
 
@@ -27,7 +27,7 @@ def test_automate_112a():
     #select Password field, and wait for user input to be supplied by 15 seconds and then press enter
     chrome_driver.find_element_by_id("loginPasswordField").click()
     sleep(15)
-    chrome_driver.find_element_by_id("loginPasswordField").send_keys("")
+    chrome_driver.find_element_by_id("loginPasswordField").send_keys("PASSWORD")
     chrome_driver.find_element_by_id("loginPasswordField").send_keys(Keys.ENTER)
     sleep(5)
 
