@@ -1,4 +1,4 @@
-# Indian Income tax - online ITR 2 form section 112 update script 
+# Indian Income tax - online ITR 2 form Section 112A update script 
 ## Background
 Filing Indian Income tax returns for Assessment year 2021-2022 has to be with new web portal https://www.incometax.gov.in/iec/foportal.  The portal is refurbished new, very user friendly.  However had many teething problems.  
 
